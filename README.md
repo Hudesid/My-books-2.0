@@ -18,5 +18,9 @@ pip install django
 ### Usage
 
 ```bash or another
+python manage.py makemigrations
+
+python manage.py migrate
+
 python manage.py runserver
 ```
